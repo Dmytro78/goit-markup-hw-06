@@ -646,6 +646,73 @@ li {
   margin-left: 0px;
 }
 
+.footer-mailing {
+  width: 100%;
+  margin-left: 90px;
+  
+}
+
+.mailing {
+  font-size: 14px;
+  line-height: 16px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.signup-form {
+ display: flex;
+ align-items: center;
+ 
+}
+
+
+.signup-form .input {
+  font-family: inherit;
+  width: 358px;
+  height: 50px;
+
+  margin-right: 12px;
+
+  padding: 15px 0px;
+  padding-left: 16px;
+
+  background-color: inherit;
+  color: var(--text-color);
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+}
+
+.button-send {
+ 
+width: 200px;
+height: 50px;
+
+padding-top: 10px;
+padding-bottom: 10px;
+
+color: var(--text-color);
+
+background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+}
+
+.send {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+ 
+}
+  
+}
+
+
+
 /*P O R T F O L I O*/
 
 .portfolio {
@@ -878,8 +945,7 @@ li {
   height: 30px;
 
   padding: 0px;
-  margin: 0px;
-
+  
   border-radius: 50%;
   border-color: rgba(0, 0, 0, 0.1);
   background-color: var(--text-color);
@@ -897,3 +963,4 @@ li {
 .button-close:focus .modal-close {
   fill: var(--button-color);
 }
+
