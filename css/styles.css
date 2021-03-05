@@ -679,7 +679,7 @@ li {
   padding: 15px 0px;
   padding-left: 16px;
 
-  background-color: inherit;
+  background-color: transparent;
   color: var(--text-color);
 
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -688,25 +688,38 @@ li {
   border-radius: 4px;
 }
 
+
 .button-send {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
 
-width: 200px;
-height: 50px;
+  width: 200px;
+  height: 50px;
 
-padding-top: 10px;
-padding-bottom: 10px;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  text-align: center;
 
-color: var(--text-color);
 
-background: #2196F3;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 29px;
+
+  color: var(--text-color);
+
+  background: #2196F3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
+
+
 
 .send {
   display: flex;
   align-items: center;
-  cursor: pointer;
+  margin-left: 10px;
   fill: var(--text-color);
 }
   
