@@ -408,16 +408,31 @@
 
 <!-- M O D A L -->
 
-<div class="backdrop is-hidden" data-modal>
+<section class="backdrop is-hidden" data-modal>
     <div class="modal">
         <button class="button-close" data-modal-close>
                 <svg class="modal-close" width="11" height="11">
                 <use href="./images/sprite.svg#cross"></use>
             </svg>
         </button>
-        
+            <p class="modal-haeding">Оставьте свои данные, мы вам перезвоним</p>
+            <form class="modal-form">
+                <div>Имя
+                <input class="input" type="user" name="user" id="user" />
+                </div>
+                <div>Телефон
+                <input class="input" type="tel" name="tel" id="tel" /></div>
+                <div>Почта
+                <input class="input" type="email" name="email" id="email" /></div>
+                <div>Комментарий
+                <textarea class="textarea" name="" id="" cols="30" rows="10">Введите текст</textarea>
+                </div>
+                <button type="submit" class="button-send">Отправить</button>        
+            </form>
+            
     </div>
-</div>
+   
+</section>
 
 <script src="./js/modal.js"></script>
 </body>
