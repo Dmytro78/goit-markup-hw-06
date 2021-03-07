@@ -410,6 +410,7 @@
 
 <section class="backdrop is-hidden" data-modal>
     <div class="modal">
+        <h2 class="visually-hidden">Оставьте свои данные</h2>
         <button class="button-close" data-modal-close>
                 <svg class="modal-close" width="11" height="11">
                 <use href="./images/sprite.svg#cross"></use>
@@ -420,7 +421,7 @@
                 <div class="group">
                 <label for="user">Имя</label>
                 <div class="input-wrapper"> 
-                <input class="input" type="user" name="user" id="user" />
+                <input class="input" type="text" name="user" id="user" />
                 <svg class="input-icon" width="12" height="12">
                     <use href="./images/sprite.svg#icon-name"></use>
                 </svg>
@@ -438,14 +439,14 @@
                 <div class="group">
                 <label for="email">Почта</label>
                 <div class="input-wrapper">  
-                <input class="input" type="email" name="email" id="email" />
+                <input class="input" type="email" name="email"/>
                  <svg class="input-icon" width="15" height="12">
                     <use href="./images/sprite.svg#icon-envelope"></use>
                 </svg>
                 </div>   
                 </div>
                 <div class="group">
-                <label for="textarea">Комментарий</label>     
+                <p>Комментарий</p>     
                 <textarea class="textarea" name="textarea" cols="30" rows="10"  placeholder="Введите текст"></textarea>
                 </div>
                 
