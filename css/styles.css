@@ -591,6 +591,15 @@ li {
   color: var(--text-color);
 }
 
+.adress:hover,
+.adress:focus,
+.contakts-mailto:hover,
+.contakts-mailto:focus,
+.contakts-tel:hover,
+.contakts-tel:focus {
+  color: var(--button-color);
+}
+
 .contakts-mailto,
 .contakts-tel {
   color: var(--gray-op60);
@@ -691,8 +700,12 @@ li {
   box-sizing: border-box;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
-  
-  
+   
+}
+
+.signup-form>.input:hover,
+.signup-form>.input:focus {
+  border: 1px solid var(--button-color);
 }
 
 
@@ -859,7 +872,7 @@ li {
 
 .post-item-link:hover .thumbs::before,
 .post-item-link:focus .thumbs::before {
-   transform: translateY(0);
+  transform: translateY(0);
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
   0px 4px 4px 0px rgba(0, 0, 0, 0.06);
   0px 1px 1px 0px rgba(0, 0, 0, 0.12);
